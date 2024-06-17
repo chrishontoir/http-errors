@@ -1,0 +1,15 @@
+{
+  "name": "@chrishontoir/http-errors",
+  "version": "1.0.0",
+  "description": "TypeScript HTTP Error package",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "@chrishontoir",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "typescript": "^5.4.5"
+  }
+}
