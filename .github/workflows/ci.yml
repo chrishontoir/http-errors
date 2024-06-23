@@ -43,7 +43,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Publish
-        run: npm run publish
+        run: npx semantic-release
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
