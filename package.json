@@ -10,7 +10,7 @@
   "repository": "https://github.com/chrishontoir/http-errors",
   "scripts": {
     "build": "tsc",
-    "publish": "semantic-release"
+    "publish": "semantic-release --debug"
   },
   "author": "chrishontoir",
   "license": "MIT",
