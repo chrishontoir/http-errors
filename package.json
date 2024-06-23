@@ -8,12 +8,14 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "publish": "semantic-release"
   },
   "author": "chrishontoir",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.14.2",
+    "semantic-release": "^24.0.0",
     "typescript": "^5.4.5"
   }
 }
