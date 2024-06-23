@@ -2,11 +2,15 @@
   "name": "@chrishontoir/http-errors",
   "version": "1.0.0",
   "description": "TypeScript HTTP Error package",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc"
   },
-  "author": "@chrishontoir",
+  "author": "chrishontoir",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.14.2",
