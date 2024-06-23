@@ -34,6 +34,6 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Publish
-        run: npm publish --dryrun
+        run: npm publish --access public --dryrun
         env:
           NPM_ACCESS_TOKEN: ${{ secrets.NPM_ACCESS_TOKEN }}
